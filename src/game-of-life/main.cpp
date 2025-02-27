@@ -118,7 +118,7 @@ int main()
     shape.setFillColor(sf::Color::Green);
 
     sf::Clock deltaClock;
-    ;
+
     while (window.isOpen()) {
       while (const auto event = window.pollEvent()) {
         ImGui::SFML::ProcessEvent(window, *event);
