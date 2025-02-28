@@ -169,18 +169,10 @@ int main()
     sf::CircleShape Shape(100.F);
     Shape.setFillColor(sf::Color::Green);
 
-<<<<<<< HEAD
-    sf::Clock deltaClock;
-
-    while (window.isOpen()) {
-      while (const auto event = window.pollEvent()) {
-        ImGui::SFML::ProcessEvent(window, *event);
-=======
     sf::Clock DeltaClock;
     while (Window.isOpen()) {
       while (const auto Event = Window.pollEvent()) {
         ImGui::SFML::ProcessEvent(Window, *Event);
->>>>>>> 9489865 (Infinite grid now)
 
         if (Event->is<sf::Event::Closed>()) { Window.close(); }
       }
