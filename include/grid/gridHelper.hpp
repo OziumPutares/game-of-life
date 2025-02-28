@@ -34,7 +34,6 @@
       return static_cast<int>(grid.getRow(row - 1)[column - 1]) + static_cast<int>(grid.getRow(row)[column - 1])
              + static_cast<int>(grid.getRow(row - 1)[column]);
     }
-    std::println("Hello there");
     return static_cast<int>(grid.getRow(row - 1)[column - 1]) + static_cast<int>(grid.getRow(row)[column - 1])
            + static_cast<int>(grid.getRow(row - 1)[column]) + static_cast<int>(grid.getRow(row - 1)[column + 1])
            + static_cast<int>(grid.getRow(row)[column + 1]);
